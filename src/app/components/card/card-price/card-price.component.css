@@ -1,0 +1,42 @@
+.card-price__container {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+	width: 100%;
+	height: 70px;
+	padding: 11px 20px;
+
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #FFFFFF;
+}
+
+.card-price__title {
+	display: flex;
+	flex-direction: column;
+	justify-content: 	space-around;
+
+	margin-bottom: 4px;
+}
+
+.card-price__value__console {
+	display: flex;
+}
+
+.card-price__value__console span {
+	font-weight: 600;
+	color: #4795ee;
+	margin-right: 10px;
+}
+
+
+.card-price__value__money {
+	width: 90%;
+	position: absolute;
+	text-align: end;
+}
+
+.game-price {
+	font-size: 27px;
+	color: #FFFFFF;
+}
