@@ -1,10 +1,17 @@
 <a href="#" class="card__container">
 	<img
 		class="card__img"
-		src="https://sobrejogosemusicas.com/wp-content/uploads/2022/11/God-of-War-Ragnarok-Capa.jpg"
+		[src]="[gameCover]"
 		alt=""
 	>
-	<app-card-label gameLabel="Exclusivo"> </app-card-label>
+	<app-card-label
+		gameLabel=" {{gameLabel}} "
+	>
+	</app-card-label>
 
-	<app-card-price> </app-card-price>
+	<app-card-price
+		gameType="{{ gameType }}"
+		gamePrice="{{ gamePrice }}"
+	>
+	</app-card-price>
 </a>
