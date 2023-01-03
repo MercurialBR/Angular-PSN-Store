@@ -1,0 +1,17 @@
+.card-label__container {
+	position: absolute;
+	bottom: 90px;
+	right: -6px;
+}
+
+.card-label__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #000000;
+	border-radius: 8px;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 5px 30px;
+}
