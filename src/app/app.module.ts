@@ -9,6 +9,9 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPriceComponent } from './components/card/card-price/card-price.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BannerPlay4Component } from './components/banner-play4/banner-play4.component';
+import { BannerTitleComponent } from './components/banner-play4/banner-title/banner-title.component';
+import { BannerItemComponent } from './components/banner-play4/banner-item/banner-item.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FooterComponent } from './components/footer/footer.component';
     MenuBarComponent,
     CardLabelComponent,
     CardPriceComponent,
-    FooterComponent
+    FooterComponent,
+    BannerPlay4Component,
+    BannerTitleComponent,
+    BannerItemComponent,
   ],
   imports: [
     BrowserModule,

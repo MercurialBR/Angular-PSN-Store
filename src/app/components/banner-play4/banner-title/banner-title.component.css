@@ -1,0 +1,17 @@
+.banner-title__container  {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
+
+.banner-title__container h1 {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.banner-title__container p {
+	font-size: 18px;
+	color: #6f6f6f;
+}

@@ -7,5 +7,14 @@
 	justify-content: space-evenly;
 	align-items: baseline;
 	flex-wrap: wrap;
+}
 
+.home-banner__play4 {
+	margin: 60px 0px;
+}
+
+.home-footer {
+	position: relative;
+	height: 130px;
+	bottom: 0;
 }
