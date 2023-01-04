@@ -12,6 +12,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BannerPlay4Component } from './components/banner-play4/banner-play4.component';
 import { BannerTitleComponent } from './components/banner-play4/banner-title/banner-title.component';
 import { BannerItemComponent } from './components/banner-play4/banner-item/banner-item.component';
+import { BannerPsplusComponent } from './components/banner-psplus/banner-psplus.component';
+import { BannerPsplusMonthComponent } from './components/banner-psplus/banner-psplus-month/banner-psplus-month.component';
+import { BannerDescriptionComponent } from './components/banner-psplus/banner-description/banner-description.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { BannerItemComponent } from './components/banner-play4/banner-item/banne
     BannerPlay4Component,
     BannerTitleComponent,
     BannerItemComponent,
+    BannerPsplusComponent,
+    BannerPsplusMonthComponent,
+    BannerDescriptionComponent,
   ],
   imports: [
     BrowserModule,

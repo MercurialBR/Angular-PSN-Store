@@ -1,0 +1,22 @@
+.banner-psplus__container {
+	width: 100%;
+	height: 400px;
+
+	margin: 200px 0;
+}
+
+.psplus__background {
+	position: absolute;
+
+	width: 100%;
+	height: 400px;
+
+	min-width: 1200px;
+	object-fit: cover;
+  object-position: center;
+}
+
+.psplus-image {
+	display: flex;
+	justify-content: space-evenly;
+}

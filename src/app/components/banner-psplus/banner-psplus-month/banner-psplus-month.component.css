@@ -1,0 +1,13 @@
+.banner-psplus__month {
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+}
+
+.psplus__month-game {
+	width: 650px;
+	position: relative;
+	top: -7.5em;
+
+}
