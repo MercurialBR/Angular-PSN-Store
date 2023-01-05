@@ -1,0 +1,25 @@
+.games-title__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.games-title__content {
+	height: 100px;
+	padding: 15px;
+}
+
+.games-title__container i {
+	padding: 15px;
+}
+
+.games-title__container h2 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.games-title__container h1 {
+	font-size: 22px;
+	font-weight: 450;
+}

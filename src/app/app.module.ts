@@ -15,6 +15,9 @@ import { BannerItemComponent } from './components/banner-play4/banner-item/banne
 import { BannerPsplusComponent } from './components/banner-psplus/banner-psplus.component';
 import { BannerPsplusMonthComponent } from './components/banner-psplus/banner-psplus-month/banner-psplus-month.component';
 import { BannerDescriptionComponent } from './components/banner-psplus/banner-description/banner-description.component';
+import { GamesComponent } from './components/games/games.component';
+import { GamesTitleComponent } from './components/games/games-title/games-title.component';
+import { GamesCardComponent } from './components/games/games-card/games-card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,9 @@ import { BannerDescriptionComponent } from './components/banner-psplus/banner-de
     BannerPsplusComponent,
     BannerPsplusMonthComponent,
     BannerDescriptionComponent,
+    GamesComponent,
+    GamesTitleComponent,
+    GamesCardComponent,
   ],
   imports: [
     BrowserModule,
