@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-banner-description',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner-description.component.css']
 })
 export class BannerDescriptionComponent implements OnInit {
+	@Input()
+	monthDescription:string = " "
+
 
   constructor() { }
 

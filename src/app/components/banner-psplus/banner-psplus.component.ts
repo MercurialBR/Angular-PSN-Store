@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-banner-psplus',
@@ -6,6 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./banner-psplus.component.css']
 })
 export class BannerPsplusComponent implements OnInit {
+
+	@Input()
+	gameMonthSuperior:string = " "
+
+	@Input()
+	monthDescription:string = " "
 
   constructor() { }
 
