@@ -27,5 +27,7 @@
 }
 
 .container__footer p{
+	color: #0070cc;
   text-align: center;
+	font-weight: 600;
 }
