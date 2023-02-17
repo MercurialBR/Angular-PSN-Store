@@ -78,3 +78,20 @@ span a:hover{
   transform: translateZ(-25px) rotateX(-90deg);
 }
 
+@media (min-width: 1025px) and (max-width: 1333px) {
+  .banner-item__container {
+    display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: 0;
+  }
+}
+@media (min-width: 400px) and (max-width: 767px) {
+	.banner-item__container {
+		display: flex;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+}

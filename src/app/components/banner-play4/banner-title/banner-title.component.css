@@ -15,3 +15,23 @@
 	font-size: 18px;
 	color: #6f6f6f;
 }
+
+@media (min-width: 400px) and (max-width: 768px) {
+	.banner-title__container {
+		display: flex;
+		width: 100%;
+		text-align: center;
+	}
+	.banner-title__container p {
+		width: 88% ;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+	.banner-title__container h1{
+		font-size: 28px;
+	}
+	.banner-title__container p {
+		font-size: 14px;
+	}
+}

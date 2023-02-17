@@ -1,4 +1,4 @@
-.card__container {
+.card__contain {
 	position: relative;
 	border: 3px solid #000000;
 	border-radius: 10px;
@@ -20,4 +20,23 @@
 
 .card__img:hover {
 	transform: scale(1.15);
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+	.card__container {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.card__contain {
+		margin: 10px 0px;
+		width: 80%;
+	}
+	.card__img {
+		width: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
 }

@@ -23,3 +23,9 @@
 	font-size: 22px;
 	font-weight: 450;
 }
+
+@media (min-width: 400px) and (max-width: 767px) {
+  .games-title__content {
+		margin-bottom: 3rem;
+  }
+}
