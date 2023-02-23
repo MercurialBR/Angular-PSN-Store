@@ -11,9 +11,8 @@
 }
 
 .menu-bar__logo {
-	margin-left: 350px;
-
 	display: flex;
+	padding: 0 80px;
 	align-items: center;
 	cursor: pointer;
 }
@@ -45,4 +44,23 @@
 	color: #006fd7;
 	font-size: 17.5px;
 	transition: 100ms ease-in-out;
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+	.menu-bar__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: auto;
+	}
+	.menu-bar__logo {
+		display: flex;
+		justify-content: center;
+		padding: 5px 0
+	}
+	.menu-bar__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }

@@ -22,7 +22,7 @@
 	transform: scale(1.15);
 }
 
-@media (min-width: 400px) and (max-width: 767px) {
+@media (min-width: 350px) and (max-width: 767px) {
 	.card__container {
 		width: 100%;
 		padding: 0;
@@ -38,5 +38,11 @@
 		width: 100%;
 		object-fit: cover;
 		object-position: center;
+	}
+}
+
+@media (min-width: 350px) and (max-width: 768px) {
+	.card__container {
+		margin-top: 90px;
 	}
 }
